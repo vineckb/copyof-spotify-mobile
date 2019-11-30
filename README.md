@@ -32,7 +32,7 @@ A minimalist remake of spotify mobile app made with React Native.
 
 Components:
 
-* List<GenreListItem>
+* Grid<GenreListItem>
 
 ### Search
 
@@ -41,11 +41,11 @@ Components:
 * Musics
   * HorizontalList<MusicListItem>
 * Artists
-  * HorizontalList<ArtistListItem>
+  * HorizontalList<ListItem>
 * Albums
-  * HorizontalList<AlbumListItem>
+  * HorizontalList<ListItem>
 * Playlists
-  * HorizontalList<PlaylistListItem>
+  * HorizontalList<ListItem>
 
 
 ### Library
@@ -55,12 +55,12 @@ Components:
 * TabNavigation
   * Playlists
     * LibrarySearch
-    * VerticalList<PlaylistListItem>
+    * VerticalList<ListItem>
   * Artists
-    * VerticalList<ArtistListItem>
+    * VerticalList<ListItem>
   * Albums
     * LibrarySearch
-    * VerticalList<AlbumListItem>
+    * VerticalList<ListItem>
   * Musics
 
 ### Genre
@@ -96,15 +96,15 @@ Components:
 Components:
 
 * Playlists
-  * HorizontalList<PlaylistListItem>
+  * HorizontalList<ListItem>
 * Featureds
   * HorizontalList<MusicListItem>
 * Latest
   * HorizontalList<MusicListItem>
 * Artists
-  * HorizontalList<ArtistListItem>
+  * HorizontalList<ListItem>
 * Albums
-  * HorizontalList<AlbumListItem>
+  * HorizontalList<ListItem>
 
 
 ### GenreListItem
@@ -112,18 +112,9 @@ Components:
 Card with cover & title of genre
 
 ### Player
-
 ### VerticalList
 ### HorizontalList
-
-### PlaylistListItem
 ### PlaylistItem
-
-### AlbumListItem
 ### AlbumItem
-
-### ArtistListItem
 ### ArtistItem
-
-### MusicListItem
 

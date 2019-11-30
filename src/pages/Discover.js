@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import Grid from '../components/Grid';
+
+import { genres } from '../api';
 
 class DiscoverPage extends Component {
   static navigationOptions = {
@@ -13,6 +16,8 @@ class DiscoverPage extends Component {
     return (
       <View>
         <Text>Discover</Text>
+
+        <Grid items={genres} />
       </View>
     )
   }
