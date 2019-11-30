@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 class DiscoverPage extends Component {
   static navigationOptions = {
     tabBarIcon: ({ tintColor }) => (
-      <Icon name="ios-home" color={tintColor} size={20}/>
+      <Icon name="ios-compass" color={tintColor} size={20}/>
     )
   };
 

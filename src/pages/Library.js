@@ -12,7 +12,15 @@ class LibraryPage extends Component {
   render () {
     return (
       <View>
-        <Text>Library</Text>
+        <Text>Lists Test page</Text>
+
+        <VerticalList>
+          <>
+        </VerticalList>
+
+        <HorizontalList>
+          <>
+        </HorizontalList>
       </View>
     )
   }

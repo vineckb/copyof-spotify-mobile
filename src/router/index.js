@@ -1,7 +1,15 @@
 import React from 'react';
+import { View, Text } from 'react-native';
 import AppRouter from './App'
 import AuthRouter from './Auth'
 import { createSwitchNavigator } from 'react-navigation'
+
+const AppWrapper = (props) => (
+  <>
+    <Text>OK!</Text>
+    <AppRouter {...props} />
+  </>
+)
 
 const Router = createSwitchNavigator({
   Auth: {
@@ -9,31 +17,10 @@ const Router = createSwitchNavigator({
   },
 
   App: {
-    screen: AppRouter
+    screen: AppWrapper
   },
 }, {
   initialRouteName: 'App'
 });
-
-
-/*
-
-  switch
-    auth (stack)
-    app (tabs)
-      - discover
-      - library (tabs)
-        - playlists
-        - artists
-        - albums
-        - musics
-      - search
-
-      // secondary routes
-      - playlist
-      - artist
-      - album
-
-*/
 
 export default Router;
