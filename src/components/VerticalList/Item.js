@@ -7,6 +7,7 @@ class VerticalListItem extends Component {
 
     return (
       <List.Item
+        title={name}
         {...this.props}
         left={props =>
           <Avatar.Image

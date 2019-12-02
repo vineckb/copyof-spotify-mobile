@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SafeAreaView, FlatList, View, Text } from 'react-native';
+import { SafeAreaView, FlatList } from 'react-native';
 import GridItem from './Item';
 
 class Grid extends Component {
