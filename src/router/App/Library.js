@@ -11,7 +11,7 @@ const LibraryRouter = createMaterialTopTabNavigator ({
   Albums: { screen: AlbumsPage },
   Artists: { screen: ArtistsPage },
   Musics: { screen: MusicsPage }
-}, );
+});
 
 class LibraryPage extends Component {
   static navigationOptions = {
@@ -20,9 +20,11 @@ class LibraryPage extends Component {
     )
   };
 
+  static router = LibraryRouter.router;
+
   render () {
     return (
-      <LibraryRouter {...this.props} />
+      <LibraryRouter navigation={this.props.navigation} />
     )
   }
 }

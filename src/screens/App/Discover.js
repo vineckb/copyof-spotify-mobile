@@ -15,8 +15,6 @@ class DiscoverPage extends Component {
   render () {
     return (
       <View>
-        <Text>Discover</Text>
-
         <Grid items={genres} />
       </View>
     )
