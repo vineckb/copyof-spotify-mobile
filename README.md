@@ -1,6 +1,6 @@
-# \#Copyof Spotify
+# Music Player
 
-A minimalist remake of spotify mobile app made with React Native.
+Mobile app of "Music Player", made with React Native.
 
 ![Screenshots](https://raw.githubusercontent.com/vineckb/copyof-spotify-mobile/master/screenshots.png)
 
@@ -12,6 +12,7 @@ A minimalist remake of spotify mobile app made with React Native.
 
 ## Features
 
+* [ ] no style libraries(for learning purpose)
 * [ ] facebook authentication
 * [ ] google authentication
 * [ ] works offline
