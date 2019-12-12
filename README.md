@@ -12,13 +12,13 @@ Mobile app of "Music Player", made with React Native.
 
 ## Features
 
-* [ ] no style libraries(for learning purpose)
-* [ ] facebook authentication
-* [ ] google authentication
-* [ ] works offline
-* [ ] browse platform content
-* [ ] manage my own library
-* [ ] custom settings about data syncing & music player
+* [] no style libraries(for learning purpose)
+* [] facebook authentication
+* [] google authentication
+* [] works offline
+* [] browse platform content
+* [] manage my own library
+* [] custom settings about data syncing & music player
 
 ---
 
@@ -119,3 +119,15 @@ Card with cover & title of genre
 ### AlbumItem
 ### ArtistItem
 
+## Roadmap
+
+* [] prototype static screens
+* [] setup & make tests
+* [] setup & write documentation
+* [] develop music player
+* [] authentication things
+* [] feth data from api
+* [] integrate all back & front features
+* [] setup & run deploy
+* [] publish on play store
+* [] build & publish on ios 
